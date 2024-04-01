@@ -1,0 +1,1 @@
+## This is an NLP project, post development will have dvc pipeline with Flask Application and github actions with Herkou.
