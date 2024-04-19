@@ -9,3 +9,4 @@
 8. Flask Prediction Pipeline
 9. Dockerize and CI/CD deployment on Heroku(5 free deployments on Heroku, you can choose AWS etc.)
 10. GPU Required to train Effectively.
+11. Resolving merge conflicts
