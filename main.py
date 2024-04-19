@@ -2,6 +2,7 @@ from src.textSummarizer.pipeline.stage_01_data_ingestion import DataIngestionTra
 from src.textSummarizer.logging import logger
 from src.textSummarizer.pipeline.stage_02_data_validation import DataValidationPipeline
 from src.textSummarizer.pipeline.stage_03_data_transformation import DataTransformationPipeline
+
 STAGE_NAME ="Data Ingestion Stage"
 
 try:
