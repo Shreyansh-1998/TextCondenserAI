@@ -1,12 +1,28 @@
-## This is an NLP project, post development will have dvc pipeline with Flask Application and github actions with Herkou.
+# Text Condensation using Transformers Hugging Face API
 
-1. Project Structure Creation(setup.py)
-2. Logging& Exception modules(Basic logging and Custom Exception)
-3. Virtual Environment + Requirements installation
-4. Notebook Experiments
-5. Modular Structure
-6. Train Pipeline
-8. Flask Prediction Pipeline
-9. Dockerize and CI/CD deployment on Heroku(5 free deployments on Heroku, you can choose AWS etc.)
-10. GPU Required to train Effectively.
-11. Resolving merge conflicts
+This project focuses on Text Condensation giving a summary of the entire conversation in this case dialogues, future integration may include Machine Learning Operations (MLOps) practices and Data Version Control (DVC) for efficient project management and versioning. The core of the solution is built around the [Transformers](https://jalammar.github.io/illustrated-transformer/). Pytorch library with [Transformers Hugging Face API with Google model](google/pegasus-cnn_dailymail) is used for efficient model training. It is trained on both C4 and HugeNews and is trained for 1.5M to observe slower convergence on pretraining complexity. [Dataset source](https://huggingface.co/datasets/samsum). 
+
+
+## How to run?
+
+### Clone the repository
+
+    ```
+    git clone https://github.com/Shreyansh-1998/TextCondenserAI.git
+    ```
+### Create a conda environment
+    ```
+    conda create -n your_env_name -python=3.8 -y
+    ```
+    ```
+    conda activate your_env_name
+    ```
+### Install the requirements
+    ```
+    pip install -r requirements.txt
+    ```
+### Run the main file
+
+    ```
+    python main.py
+    ```
